@@ -1,6 +1,6 @@
 {
   "name": "@datadog/browser-rum",
-  "version": "3.10.1",
+  "version": "3.12.0",
   "license": "Apache-2.0",
   "main": "cjs/entries/main.js",
   "module": "esm/entries/main.js",
@@ -12,8 +12,8 @@
     "build:esm": "rm -rf esm && tsc -p tsconfig.esm.json"
   },
   "dependencies": {
-    "@datadog/browser-core": "khaledsayyed/datadog-browser-core#8f62254a1a978697bef91567524ee01bda94ed0e",
-    "@datadog/browser-rum-core": "khaledsayyed/datadog-browser-rum-core#6f5078fa24a8155cdf0bb9eb6aadb70e0cb1554e",
+    "@datadog/browser-core": "khaledsayyed/datadog-browser-core#82e045d5ac0b17037829139ec2f1aa56f2c80cae",
+    "@datadog/browser-rum-core": "khaledsayyed/datadog-browser-rum-core#e67ca8074770ef2b6e12276059ae902c3ea0edfd",
     "tslib": "^1.10.0"
   },
   "repository": {
